@@ -1,0 +1,45 @@
+<!-- Student: Hossam Mohamed Rafat Ali | ID: 225110527 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hossam | Personal Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home">HM<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY SPACE</p>
+        <h1>Hossam Mohamed<br>Rafat Ali<span class="dot">.</span></h1>
+        <p class="intro">Computer Science student exploring technology, creativity, and the ideas that make the web a better place.</p>
+        <p class="student-id">STUDENT ID <strong>225110527</strong></p>
+        <div class="hero-actions"><a class="primary-btn" href="#contact">Get in touch <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-btn" type="button" aria-pressed="false">☾ Switch to dark</button></div>
+      </div>
+      <div class="portrait-frame"><img src="images/me.jpg" alt="Portrait of Hossam Mohamed Rafat Ali sitting on a sofa"></div>
+    </section>
+    <section class="interests-section" id="interests">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Things I'm into<span class="dot">.</span></h2></div>
+      <div class="card-row">
+        <article class="card"><span class="card-icon" aria-hidden="true">⌘</span><h3>Web Development</h3><p>Learning to build responsive, useful, and visually engaging websites.</p><span class="card-number">01 / SKILL</span></article>
+        <article class="card"><span class="card-icon" aria-hidden="true">✧</span><h3>Creative Design</h3><p>Exploring fresh layouts, thoughtful details, and clean digital experiences.</p><span class="card-number">02 / INTEREST</span></article>
+        <article class="card"><span class="card-icon" aria-hidden="true">↗</span><h3>Continuous Learning</h3><p>Growing through new challenges, collaboration, and hands-on projects.</p><span class="card-number">03 / MINDSET</span></article>
+      </div>
+    </section>
+    <section class="contact-section" id="contact"><div><p class="eyebrow">SAY HELLO</p><h2>Let's connect<span class="dot">.</span></h2><p>Leave your details and say hi!</p></div><form id="contact-form"><div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div><button class="primary-btn" type="submit">Say hello ↗</button><p id="form-message" class="form-message" aria-live="polite"></p></form></section>
+  </main>
+  <footer><p>© 2026 Hossam Mohamed Rafat Ali. All rights reserved.</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
